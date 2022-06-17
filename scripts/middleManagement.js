@@ -6,6 +6,8 @@ import { Cars } from "./newcars.js";
 
 export const carsHTML = () => {
     return `
+    <h1>Cars-R-Us</h1>
+    
     <article class="choices">
         <section class="choices__paints options">
             ${paintsHTML()}
